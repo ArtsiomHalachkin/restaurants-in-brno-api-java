@@ -52,15 +52,18 @@ Currently populated from json file in resources package with some restaurants fr
 ###  Discovery Endpoints
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
-| `GET` | `/api/restaurants` | List all restaurants in Brno |
-| `GET` | `/api/restaurants/near` | Search by location (`lat`, `lon`, `distanceKm`) |
-| `GET` | `/api/restaurants/type/{category}` | Filter by category (e.g. `Pub`) |
+| `GET` | `/restaurants` | List all restaurants |
+| `GET` | `/restaurants/{id}` | Get reastaurant by Id|
+| `GET` | `/restaurants/near` | Find restaurant near to you location, specify nearest by distance |
+| `GET` | `/restaurants/type/{category}` | Filter by category |
+| `GET` | `/restaurants/near/type/{category}` | Find restaurant near to you location, specify nearest by distance and type |
 
 ### Management Endpoints
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
-| `POST` | `/api/restaurants` | Add a new restaurant |
-| `DELETE` | `/api/restaurants/{id}` | Remove a restaurant by ID |
+| `POST` | `/restaurants` | Add a new restaurant |
+| `DELETE` | `/restaurants/{id}` | Remove a restaurant by ID |
+| `PUT` | `/restaurants/{id}` | Update a restaurant by ID |
 
 ---
 
