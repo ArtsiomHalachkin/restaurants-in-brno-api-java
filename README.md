@@ -54,7 +54,7 @@ Currently populated from json file in resources package with some restaurants fr
 | :--- | :--- | :--- |
 | `GET` | `/restaurants` | List all restaurants |
 | `GET` | `/restaurants/{id}` | Get reastaurant by Id|
-| `GET` | `/restaurants/near` | Find restaurant near to you location, specify nearest by distance |
+| `GET` | `/restaurants/near` | Find restaurant near to your location, specify nearest by distance |
 | `GET` | `/restaurants/type/{category}` | Filter by category |
 | `GET` | `/restaurants/near/type/{category}` | Find restaurant near to you location, specify nearest by distance and type |
 
