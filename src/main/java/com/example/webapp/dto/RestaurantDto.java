@@ -10,10 +10,15 @@ import jakarta.validation.constraints.NotNull;
 public class RestaurantDto {
 
     @NotBlank
+    private long id;
+
+    @NotBlank
     private String name;
 
     @NotBlank
     private String address;
+
+    private String type;
 
     @NotNull
     @Min(0)
@@ -26,11 +31,17 @@ public class RestaurantDto {
     @NotNull
     private Double longitude;
 
+    public Long getId() {return this.id; }
+    public void setId(long id) {this.id = id;}
+
     public String getName() { return this.name; }
     public void setName(String name) { this.name = name;}
 
     public String getAddress() { return this.address; }
     public void setAddress(String address) { this.address = address; }
+
+    public String getType() { return this.type; }
+    public void setType(String type) { this.type = type; }
 
     public Double getRating() { return this.rating;}
     public void setRating(Double rating) { this.rating = rating;}

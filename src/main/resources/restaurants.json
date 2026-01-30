@@ -1,0 +1,265 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Restaurant dalešického pivovaru BETLÉM",
+      "address": "Krkoškova 502/27, 613 00 Brno-sever",
+      "latitude": 49.21673651768808,
+      "longitude": 16.62437165026402,
+      "type": "Pub",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Restaurace Olymp",
+      "address": "Durďákova 356/46, 613 00 Brno-sever",
+      "latitude": 49.206774,
+      "longitude": 16.618967,
+      "type": "Pub",
+      "rating": 4.4
+    },
+    {
+      "id": 3,
+      "name": "ERA Café",
+      "address": "Zemědělská 1686/30, 613 00 Brno-sever",
+      "latitude": 49.210542,
+      "longitude": 16.619140,
+      "type": "Cafe",
+      "rating": 4.1
+    },
+    {
+      "id": 4,
+      "name": "IL CAPO Pizzeria & Ristorante",
+      "address": "Merhautova 101, 613 00 Brno-sever",
+      "latitude": 49.210885,
+      "longitude": 16.624015,
+      "type": "Pizza",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Khao Niew Thai Bistro",
+      "address": "Zemědělská 1693/38, 613 00 Brno-sever",
+      "latitude": 49.210744,
+      "longitude": 16.619832,
+      "type": "Asian",
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Bistro La TERRA",
+      "address": "Zemědělská 813/28, 613 00 Brno-sever",
+      "latitude": 49.210478,
+      "longitude": 16.618801,
+      "type": "Bistro",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Piccolo Bar & Restaurant",
+      "address": "Merhautova 969/93, 613 00 Brno-sever",
+      "latitude": 49.210178,
+      "longitude": 16.623798,
+      "type": "Pub",
+      "rating": 4.2
+    },
+    {
+      "id": 8,
+      "name": "Restaurace U Kaštanů",
+      "address": "Černopolní 213/10, 613 00 Brno-sever",
+      "latitude": 49.203121,
+      "longitude": 16.618680,
+      "type": "Pub",
+      "rating": 4.0
+    },
+    {
+      "id": 9,
+      "name": "Fabrik Food Factory",
+      "address": "nám. 28. října 1900/20, 602 00 Brno-střed",
+      "latitude": 49.202737,
+      "longitude": 16.613806,
+      "type": "International",
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "name": "Numi Izakaya Brno",
+      "address": "tř. Kpt. Jaroše 1844/28, 602 00 Brno-střed",
+      "latitude": 49.204057,
+      "longitude": 16.610860,
+      "type": "Asian",
+      "rating": 4.8
+    },
+    {
+      "id": 11,
+      "name": "Restaurace Amphone (Sabaidy)",
+      "address": "tř. Kpt. Jaroše 1942/29, 602 00 Brno-střed",
+      "latitude": 49.202789,
+      "longitude": 16.610264,
+      "type": "Asian",
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "name": "Pho 43",
+      "address": "tř. Kpt. Jaroše 1839/20, 602 00 Brno-střed",
+      "latitude": 49.202918,
+      "longitude": 16.610987,
+      "type": "Asian",
+      "rating": 4.4
+    },
+    {
+      "id": 13,
+      "name": "Gopál - vegetariánská restaurace",
+      "address": "tř. Kpt. Jaroše 10, 602 00 Brno-střed",
+      "latitude": 49.201310,
+      "longitude": 16.611266,
+      "type": "Vegetarian",
+      "rating": 4.6
+    },
+    {
+      "id": 14,
+      "name": "Kachna café Černopolní",
+      "address": "Černopolní 223/33, 613 00 Brno-sever",
+      "latitude": 49.205571,
+      "longitude": 16.617454,
+      "type": "Cafe",
+      "rating": 5.0
+    },
+    {
+      "id": 15,
+      "name": "Krátký Kafe",
+      "address": "Merhautova 869/129, 613 00 Brno-sever",
+      "latitude": 49.213199,
+      "longitude": 16.625223,
+      "type": "Cafe",
+      "rating": 4.9
+    },
+    {
+      "id": 16,
+      "name": "Pivnice Prádelna",
+      "address": "nám. SNP 18a, 613 00 Brno-sever",
+      "latitude": 49.218338,
+      "longitude": 16.618727,
+      "type": "Pub",
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Kinokavárna Brno",
+      "address": "nám. SNP 33, 613 00 Brno-sever",
+      "latitude": 49.217818,
+      "longitude": 16.620775,
+      "type": "Cafe",
+      "rating": 3.8
+    },
+    {
+      "id": 18,
+      "name": "Kafe na písku",
+      "address": "nám. SNP 1771/33, 613 00 Brno-sever",
+      "latitude": 49.218103,
+      "longitude": 16.620643,
+      "type": "Cafe",
+      "rating": 4.8
+    },
+    {
+      "id": 19,
+      "name": "Restaurace na Chatě",
+      "address": "Černopolní 54, 613 00 Brno-sever",
+      "latitude": 49.208585,
+      "longitude": 16.615019,
+      "type": "Pub",
+      "rating": 3.9
+    },
+    {
+      "id": 20,
+      "name": "Jäger Pub u Barona",
+      "address": "Bendlova 149/25, 613 00 Brno-sever",
+      "latitude": 49.217058,
+      "longitude": 16.622253,
+      "type": "Pub",
+      "rating": 4.9
+    },
+    {
+      "id": 21,
+      "name": "Blues Bar Traubka",
+      "address": "Traubova 1547/8, 602 00 Brno-střed",
+      "latitude": 49.202144,
+      "longitude": 16.615233,
+      "type": "Bar",
+      "rating": 4.7
+    },
+    {
+      "id": 22,
+      "name": "Mýdlo",
+      "address": "Traubova 1914/3, 602 00 Brno-střed",
+      "latitude": 49.201872,
+      "longitude": 16.615264,
+      "type": "Pub",
+      "rating": 4.5
+    },
+    {
+      "id": 23,
+      "name": "Ponava",
+      "address": "Lužánecká 1883/3, 602 00 Brno-střed",
+      "latitude": 49.20487731534505,
+      "longitude": 16.61007148341978,
+      "type": "Cafe",
+      "rating": 4.5
+    },
+    {
+      "id": 24,
+      "name": "Tenis Pub Brno",
+      "address": "Lužánecká, 602 00 Brno-střed",
+      "latitude": 49.205286,
+      "longitude": 16.611023,
+      "type": "Pub",
+      "rating": 4.0
+    },
+    {
+      "id": 25,
+      "name": "La Speranza Bistro Italiano",
+      "address": "Lidická 1871/32, 602 00 Brno-střed",
+      "latitude": 49.202634779054655,
+      "longitude": 16.607506350640634,
+      "type": "Italian",
+      "rating": 4.4
+    },
+    {
+      "id": 26,
+      "name": "Pizzerie u Montyho",
+      "address": "Provazníkova 890/40, 613 00 Brno-sever",
+      "latitude": 49.21420017474662,
+      "longitude": 16.62318358976725,
+      "type": "Pizza",
+      "rating": 4.2
+    },
+    {
+      "id": 27,
+      "name": "Základna Tři Ocásci",
+      "address": "tř. Kpt. Jaroše 1935/18, 602 00 Brno-střed",
+      "latitude": 49.20281982486656,
+      "longitude": 16.61099468557814,
+      "type": "Pub",
+      "rating": 4.4
+    },
+    {
+      "id": 28,
+      "name": "Café Löw-Beer",
+      "address": "Drobného 297/22, 602 00 Brno-sever",
+      "latitude": 49.206274,
+      "longitude": 16.614753,
+      "type": "Cafe",
+      "rating": 4.5
+    },
+    {
+      "id": 29,
+      "name": "Anoda",
+      "address": "tř. Kpt. Jaroše 1942/29, 602 00 Brno-střed",
+      "latitude": 49.20377957354058,
+      "longitude": 16.61033479424954,
+      "type": "Cafe",
+      "rating": 4.7
+    }
+  ]
+}

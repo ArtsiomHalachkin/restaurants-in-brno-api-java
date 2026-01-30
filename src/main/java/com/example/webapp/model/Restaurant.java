@@ -13,17 +13,25 @@ public class Restaurant {
 
     private String address;
 
+    private String type;
+
     private double rating;
 
     private double latitude;
 
     private double longitude;
 
+    public Long getId() {return this.id; }
+    public void setId(Long id) {this.id = id;}
+
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
 
     public String getAddress() {return address;}
     public void setAddress(String address) {this.address = address;}
+
+    public String getType() {return type;}
+    public void setType(String type) {this.type = type;}
 
     public double getRating() {return rating;}
     public void setRating(double rating) {this.rating = rating;}

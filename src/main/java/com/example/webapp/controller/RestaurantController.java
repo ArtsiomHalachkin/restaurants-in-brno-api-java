@@ -27,6 +27,7 @@ public class RestaurantController {
         restaurant.setName(restaurantDto.getName());
         restaurant.setRating(restaurantDto.getRating());
         restaurant.setAddress(restaurantDto.getAddress());
+        restaurant.setType(restaurantDto.getType());
         restaurant.setLatitude(restaurantDto.getLatitude());
         restaurant.setLongitude(restaurantDto.getLongitude());
 
@@ -46,7 +47,8 @@ public class RestaurantController {
             @PathVariable Long id,
             @Valid RestaurantDto restaurantDto) {
 
-        Restaurant restaurant = restaurantRepository.findById(id).orElse(null);
+        Restaurant restaurant = restaurantRepository.findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Restaurant not found"));
 
         return ResponseEntity.ok(restaurant);
     }
@@ -60,10 +62,25 @@ public class RestaurantController {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Restaurant not found"));
 
         existingRestaurant.setName(restaurantDto.getName());
+        existingRestaurant.setRating(restaurantDto.getRating());
         existingRestaurant.setAddress(restaurantDto.getAddress());
+        existingRestaurant.setType(restaurantDto.getType());
         existingRestaurant.setLatitude(restaurantDto.getLatitude());
         existingRestaurant.setLongitude(restaurantDto.getLongitude());
 
         return ResponseEntity.ok(restaurantRepository.save(existingRestaurant));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Restaurant> deleteRestaurant(
+            @PathVariable Long id) {
+
+        Restaurant existingRestaurant = restaurantRepository.findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Restaurant not found"));
+
+        restaurantRepository.delete(existingRestaurant);
+
+        return ResponseEntity.noContent().build();
+
     }
 }
