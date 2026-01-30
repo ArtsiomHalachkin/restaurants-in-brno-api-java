@@ -25,6 +25,7 @@ public class RestaurantController {
     public ResponseEntity<Restaurant> createRestaurant(@Valid @RequestBody RestaurantDto restaurantDto) {
         Restaurant restaurant = new Restaurant();
         restaurant.setName(restaurantDto.getName());
+        restaurant.setRating(restaurantDto.getRating());
         restaurant.setAddress(restaurantDto.getAddress());
         restaurant.setLatitude(restaurantDto.getLatitude());
         restaurant.setLongitude(restaurantDto.getLongitude());
