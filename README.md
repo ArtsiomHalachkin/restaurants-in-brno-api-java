@@ -10,7 +10,7 @@ Currently populated from json file in resources package with some restaurants fr
 
 ## Key Features
 
-* **Location-Based Search**: Find restaurants within a specific kilometer radius using MongoDB's `2dsphere` index.
+* **Geo-Spatial Data Modeling**: Find restaurants within a specific kilometer radius using MongoDB's `2dsphere` index.
 * **Automatic Data Seeding**: Populates your database with restaurants from Cerna Pole district in Brno/
 * **Type Filtering**: Case-insensitive filtering for restaurant categories (e.g., "Pub", "Cafe").
 * **DTO Pattern**: Clear separation between database entities and API responses for better security and flexibility.
