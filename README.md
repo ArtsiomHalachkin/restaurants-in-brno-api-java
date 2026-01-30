@@ -1,4 +1,3 @@
-Markdown
 #  Brno Restaurant API
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F21444?style=for-the-badge&logo=spring-boot&logoColor=white)
